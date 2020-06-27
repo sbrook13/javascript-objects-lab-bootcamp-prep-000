@@ -5,6 +5,7 @@ var recipes = {
   "salt" :"1 cup"
 }
 function updateObjectWithKeyAndValue(food,a,b){
-  var newRecipe = food[a]=b
+  food[a]=b
+  var newRecipe = 
   return newRecipe
 }
