@@ -19,3 +19,7 @@ function deleteFromObjectByKey(list,a){
   delete copy[a]
   return copy
 }
+function destructivelyDeleteFromObjectByKey(list,a){
+  delete list[a]
+  return list
+}
