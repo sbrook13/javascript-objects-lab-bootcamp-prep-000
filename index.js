@@ -12,4 +12,5 @@ function updateObjectWithKeyAndValue(list,a,b){
 function destructivelyUpdateObjectWithKeyAndValue(list,a,b){
   var newPair = {[a]:b}
   Object.assign({},list,newPair)
+  return list
 }
