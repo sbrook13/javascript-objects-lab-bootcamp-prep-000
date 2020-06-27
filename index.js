@@ -9,3 +9,7 @@ function updateObjectWithKeyAndValue(list,a,b){
   var newRecipe = Object.assign({},list,newPair)
   return newRecipe
 }
+function destructivelyUpdateObjectWithKeyAndValue(list,a,b){
+  var newPair = {[a]:b}
+  Object.assign({},list,newPair)
+}
