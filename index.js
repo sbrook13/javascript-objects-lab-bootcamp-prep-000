@@ -14,3 +14,7 @@ function destructivelyUpdateObjectWithKeyAndValue(list,a,b){
   Object.assign(list,newPair)
   return list
 }
+function deleteFromObjectByKey(list,a){
+  var newList = Object.assign(list,delete list[a])
+  return newList
+}
