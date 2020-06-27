@@ -4,7 +4,7 @@ var recipes = {
   "sugar" :"none!",
   "salt" :"1 cup"
 }
-function updateObjectWithKeyAndValue(food,a,b){
+function updateObjectWithKeyAndValue(a,b){
   var newPair = {[a]:[b]}
   var newRecipe = Object.assign({},recipes,newPair)
   return newRecipe
